@@ -1,0 +1,234 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body a link="black" vlink="red">
+        <main>
+            <div class="top-content">
+                <h1 class="words">Learn to code by<br>watching others</h1>
+                <p>See how experienced developers solve problems in real-<br>time watching scripted tutorials is great, but understanding how <br>developers think is invaluable.</p>
+            </div>
+            <div class="sloganinbox">
+                <h4>Try it free 7 days</h4><p> then $20/mo. thereafter</p>
+            </div>
+            <div class="loginbox">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Email Addres">
+                <input type="text" placeholder="Password">
+                <button>CLAIM YOUR FREE TRIAL</button>
+                <p>By clicking the button, you are agreeing to our <a href="#">Team and Services</a></p>
+            </div>
+        </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+CSS:
+
+body{
+    background-color: rgb(255, 103, 103);
+    font-family: Arial;
+    background-image: url("e.g Zino/images/bg-intro-desktop.png");
+    background-blend-mode: overlay;
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    /*width: 50%;*/
+    /*argin: auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 20px;
+}
+.top-content{
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    padding-left: 1%;
+    padding-right: 40%;
+}
+.top-content h1{
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: arial;
+    font-size: 330%;
+    padding-bottom: 5%;
+}
+.top-content p{
+    padding: 1em;
+    color: aliceblue;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: arial narrow;
+    font-size: 130%;
+    padding-bottom: 5%;
+}
+.loginbox{
+    width: 470px;
+    height: 450px;
+    background: #fff;
+    color: rgba(136, 136, 136, 0.555);
+    top: 65%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 2%;
+    text-align: center;
+    box-shadow: 2px 7px;
+    padding-top: 2%;
+}
+.loginbox button{
+    color: white;
+    background-color: rgb(91, 190, 144);
+    border: none;
+    width: 80%;
+    height: 13%;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.loginbox input{
+    margin-top: 15px;
+    width: 80%;
+    height: 13%;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+.loginbox p{
+    padding-top: 13px;
+    font-size: 10px;
+}
+.sloganinbox{
+    width: 470px;
+    height: 70px;
+    background: rgb(79, 60, 163);
+    color: rgb(255, 255, 255);
+    top: 30%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 1%;
+    box-shadow: 2px 7px rgba(136, 136, 136, 0.555);
+}
+.sloganinbox p{
+    color: rgb(194, 194, 194);
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 450px){
+    main{
+        /*width: 50%;*/
+        /*argin: auto;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding-top: 20px;
+    }
+    .top-content{
+        text-align: center;
+    }
+    .top-content h1{
+        padding: 1em;
+        color: aliceblue;
+        padding-left: 1%;
+        padding-right: 1%;
+        font-family: arial;
+        font-size: 330%;
+        padding-bottom: 5%;
+    }
+    .top-content p{
+        padding: 1em;
+        color: aliceblue;
+        padding-left: 1%;
+        padding-right: 1%;
+        font-family: arial narrow;
+        font-size: 130%;
+        padding-bottom: 5%;
+    }
+    .loginbox{
+        width: 340px;
+        height: 440px;
+        background: #fff;
+        color: rgba(136, 136, 136, 0.555);
+        top: 130%;
+        left: 30%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 2%;
+        text-align: center;
+        box-shadow: 2px 7px;
+        padding-top: 1%;
+    }
+    .loginbox button{
+        color: white;
+        background-color: rgb(91, 190, 144);
+        border: none;
+        width: 60%;
+        height: 13%;
+        border-radius: 4px;
+        margin-top: 15px;
+        font-size: 12px;
+        padding-left: 7%;
+    }
+    .loginbox input{
+        margin-top: 15px;
+        width: 60%;
+        height: 13%;
+        border-radius: 4px;
+    }
+    .loginbox p{
+        padding-top: 13px;
+        font-size: 10px;
+    }
+    .sloganinbox{
+        width: 50%;
+        height: 80px;
+        background: rgb(79, 60, 163);
+        color: rgb(255, 255, 255);
+        margin-top: 90%;
+        left: 30%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 6px;
+        text-align: center;
+        padding-top: 2%;
+        box-shadow: 2px 7px;
+    }
+    .sloganinbox p{
+        color: rgb(194, 194, 194);
+        font-size: 15px;
+    }
+}
