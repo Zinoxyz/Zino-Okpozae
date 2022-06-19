@@ -1,0 +1,341 @@
+HTML CODE: CSS FLEXBOX
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="werty">
+            <a href="http://127.0.0.1:5501/index.html"><button>Grid</button></a>
+        </div>
+        <div class="top-content">
+            <h1>SEDANS</h1>
+            <p>Choose a sedam for its</p>
+            <p>affordability and excellent</p>
+            <p>fuel economy. I deal for</p>
+            <p>cruising in the city or an</p>
+            <p>your next road</p>
+            <a href='#'><button>Learn More</button></a>
+        </div>
+        <div class="top-contentT">
+            <h1>SUVS</h1>
+            <p>Take an SUV for its spacious</p>
+            <p>interior, power , and</p>
+            <p>versatility. Perfect for your</p>
+            <p>next family vacation and</p>
+            <p>off-road adventures.</p>
+            <a href='#'><button>Learn More</button></a>
+        </div>
+        <div class="top-contentTH">
+            <h1>LUXURY</h1>
+            <p>Cruise in the best car brands</p>
+            <p>without the bloated prices.</p>
+            <p>Enjoy the enhanced comfort</p>
+            <p>of a luxury rental drive and arrive</p>
+            <p>in style</p>
+            <a href='#'><button>Learn More</button></a>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+CODE CSS: FLEXBOX
+
+.werty button{
+    color: white;
+    background-color: blue;
+    border: none;
+    width: 6%;
+    height: 60px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: raleway;
+    margin-left: 48%;
+    margin-top: 1%;
+}
+.top-content button:focus{
+    color: white;
+    background-color: hsl(31deg 77% 52%);
+    border: 2px solid white;
+}
+.top-contentT button:focus{
+    color: white;
+    background-color: hsl(184deg 100% 22%);
+    border: 2px solid white;
+}
+.top-contentTH button:focus{
+    color: white;
+    background-color: hsl(179deg 100% 13%);
+    border: 2px solid white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    /*width: 50%;*/
+    /*argin: auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+.top-content{
+    width: 373px;
+    height: 545px;
+    background: hsl(31deg 77% 52%);
+    top: 52%;
+    left: 28%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding-top: 2%;
+    background-image: url("e.g Zino/images/bg-intro-desktop.png");
+}
+.top-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 34px;
+    padding-left: 5%;
+}
+.top-content p{
+    font-size: bold;
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+    font-size: 20px;
+    padding-bottom: 7%;
+    padding-left: 5%;
+}
+.top-content button{
+    color: hsl(31deg 77% 52%);
+    background-color: white;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 13px;
+    font-size: 125%;
+}
+.top-contentT{
+    width: 373px;
+    height: 545px;
+    background: hsl(184deg 100% 22%);
+    top: 52%;
+    left: 49%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding-top: 2%;
+    background-image: url("This PC/Local Disk (E:)/HTML CLASSES/5/task/icon-luxury");
+}
+.top-contentT h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 34px;
+    padding-left: 5%;
+}
+.top-contentT p{
+    font-size: bold;
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+    font-size: 20px;
+    padding-bottom: 7%;
+    padding-left: 5%;
+}
+.top-contentT button{
+    color: hsl(184deg 100% 22%);
+    background-color: white;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 50px;
+    font-size: 125%;
+}
+.top-contentTH{
+    width: 373px;
+    height: 545px;
+    background: hsl(179deg 100% 13%);
+    top: 52%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding-top: 2%;
+    background-image: url("This PC/Local Disk (E:)/HTML CLASSES/5/task/icon-luxury");
+}
+.top-contentTH h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 34px;
+    padding-left: 5%;
+}
+.top-contentTH p{
+    font-size: bold;
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+    font-size: 20px;
+    padding-bottom: 7%;
+    padding-left: 5%;
+}
+.top-contentTH button{
+    color: hsl(179deg 100% 13%);
+    background-color: white;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 50px;
+    font-size: 125%;
+}
+@media screen and (max-width:700){
+    .top-content{
+        width: 373px;
+        height: 545px;
+        background: hsl(31deg 77% 52%);
+        top: 52%;
+        left: 28%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 2%;
+        padding-top: 2%;
+        background-image: url("e.g Zino/images/bg-intro-desktop.png");
+    }
+    .top-contentT{
+        width: 373px;
+        height: 545px;
+        background: hsl(184deg 100% 22%);
+        top: 104%;
+        left: 28%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 2%;
+        padding-top: 2%;
+        background-image: url("e.g Zino/images/bg-intro-desktop.png");
+    }
+    .top-contentTH{
+        width: 373px;
+        height: 545px;
+        background: hsl(179deg 100% 13%);
+        top: 52%;
+        left: 70%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 2%;
+        padding-top: 2%;
+        background-image: url("e.g Zino/images/bg-intro-desktop.png");
+    }
+}
+
+HTML CODE: GRID LAYOUT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="missB">
+            <a href='http://127.0.0.1:5502/index.html'><button>Flex-Box</button></a>
+        </div>
+        <div>
+            <div class="col1">
+            </div>
+            <div class="col2">
+            </div>
+            <div class="col3">
+            </div>
+            <div class="col4">
+            </div>
+            <div class="col5">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+CSS CODE: GRID LAYOUT
+
+.missB button{ 
+    width: 9%;
+    height: 70px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: raleway;
+    margin-left: 45.7%;
+}
+*{
+    box-sizing: border-box;
+    font-size: 50px;
+    margin: 20px;
+    flex-flow: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.col1{
+    width: 16.7%;
+    height: 142px;
+    background: rgb(255, 0, 0);
+    margin-left: 36.5%;
+    margin-top: 3.5%;
+}
+.col2{
+    width: 142px;
+    height: 142px;
+    background: rgb(57, 212, 57);
+    margin-top: 1%;
+    margin-left: 20%;
+
+}
+.col3{
+    width: 142px;
+    height: 142px;
+    background: green;
+}
+.col4{
+    width: 220px;
+    height: 56.5px;
+    background: blue;
+}
+.col5{
+    width: 220px;
+    height: 56.5px;
+    background: blue;
+
+}
